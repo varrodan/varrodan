@@ -1,16 +1,1081 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="author" content="Daniel Varro" />
-    <meta name="language" content="en" />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Dániel Varró</title>
+  <meta name="description" content="Web page">
+  <meta name="keywords" content="software engineering; systems engineering; research; academics,">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="colorful.css">
+  <!-- Script: Navbar on-top -->
+  <script src="js/navbar-ontop.js"></script>
+</head>
 
-    <!-- style -->
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="lib/style.css" type="text/css" />
+<body>
+  <nav class="navbar-expand-md fixed-top navbar-dark bg-dark navbar">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <b>Dániel Varró</b>
+      </a>
+      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar3SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#teaching">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gradstudents">Team</a>
+          </li>
+          <!--          <li class="nav-item">
+            <a class="nav-link" href="#innovation">Innovation</a>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5nav- filter-dark bg-fixed bg-dark cover" style="background-position:left top;background-image: url('assets/team/080-CSMR_20120329_094822.JPG');background-size:cover;" id="mission">
+    <div class="my-auto container">
+      <div class="row align-items-center">
+        <div class="col-md-3">
+          <img class="d-block my-3 img-fluid rounded" src="assets/team/VarroD-2015-small.jpg"> </div>
+        <div class="text-white col-md-6 my-5">
+          <h3> Welcome! </h3>
+          <p class="lead" contenteditable="true">
+            <i class="">I am a professor in software engineering at
+              <a href="https://www.mcgill.ca/ece/daniel-varro">McGill University</a> and at
+              <a href="https://inf.mit.bme.hu/en/members/varro">Budapest University of Technology and Economics</a>, a research chair of the MTA-BME Lendület Cyber-Physical Systems Research Group, and a co-founder of
+              <a href="https://incquerylabs.com/" target="_blank">IncQuery Labs Ltd</a>.</i>
+          </p>
+          <a href="https://www.linkedin.com/in/daniel-varro-3854bb49/">
+            <img src="assets/team/linkedin.png" style="height:36px; width:36px" alt="LinkedIn"> </a>
+          <a href="https://scholar.google.ca/citations?hl=en&amp;user=4Ya6dVoAAAAJ" alt="Google Scholar">
+            <img src="assets/team/google-scholar2.png" style="height:50px; width:50px"> </a>
+          <a href="https://dblp.org/pers/hd/v/Varr=oacute=:D=aacute=niel">
+            <img src="assets/team/dblp3.png" style="height:40px; width:40px" alt="DBLP"> </a>
+          <a href="https://orcid.org/0000-0002-8790-252X">
+            <img src="assets/team/orcid_128x128.png" style="height:32px; width:32px" alt="ORCID"> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 bg-light" id="research">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1 class="mb-4 text-muted">Research Highlights
+            <br> </h1>
+          <p class="lead">My research primarily aims to provide precise and scalable techniques and software tools for engineering smart and safe cyber-physical systems.</p>
+          <div class="row text-left mt-5">
+            <div class="col-md-4 my-3">
+              <div class="row mb-3">
+                <div class="text-center col-2">
+                  <i class="d-block mx-auto fa fa-3x fa-train"></i>
+                </div>
+                <div class="align-self-center col-10">
+                  <h5 class="text-secondary text-center">
+                    <b>Design and analysis techniques for CPS</b>
+                  </h5>
+                </div>
+              </div>
+              <p>We are developing precise design and analysis techniques for design-time and run-time assurrance of smart and safe cyber-physical systems. </p>
+              <p>Check the
+                <a href="https://github.com/FTSRG/BME-MODES3">MoDeS3</a> demonstrator showcasing various modeling and IoT technologies for safety-critical systems (co-developed with
+                <a href="http://inf.mit.bme.hu/en/" target="_blank">FTSRG@BME</a>,
+                <a href="https://incquerylabs.com/" target="_blank">IncQuery Labs</a> and
+                <a href="http://quanopt.com/">QuanOpt</a>). </p>
+            </div>
+            <div class="col-md-4 my-3">
+              <div class="row mb-3">
+                <div class="text-center col-2">
+                  <i class="d-block mx-auto fa fa-3x fa-object-group"></i>
+                </div>
+                <div class="align-self-center col-10">
+                  <h5 class="text-secondary text-center">
+                    <b>Graph queries and transformations&nbsp;</b>
+                  </h5>
+                </div>
+              </div>
+              <p>We developed scalable incremental graph query and reactive model transformation techniques used in industrial system modeling tools like
+                <a href="https://www.polarsys.org/capella/">Capella</a>,
+                <a href="https://www.artop.org/">Artop</a>, or
+                <a href="https://www.eclipse.org/papyrus/">Papyrus</a>.</p>
+              <p>Check out the open source
+                <a href="https://www.eclipse.org/viatra/">VIATRA model transformation framework</a> and related
+                <a href="https://incquerylabs.com/incquery/">innovative products</a> at
+                <a href="https://incquerylabs.com/">IncQuery Labs Ltd</a>.</p>
+            </div>
+            <div class="col-md-4 my-3">
+              <div class="row mb-3">
+                <div class="text-center col-2">
+                  <i class="d-block mx-auto fa fa-3x fa-plane"></i>
+                </div>
+                <div class="align-self-center col-10">
+                  <h5 class="text-secondary text-center">
+                    <b>Tool integration for critical systems</b>
+                  </h5>
+                </div>
+              </div>
+              <p>We have significant experience in integrating design tools into complex, tool-chains aligned with industrial workflows and processes. </p>
+              <p>Check
+                <a href="https://github.com/viatra/massif">Massif</a>, which is a Matlab Simuling integration framework for Eclipse initially developed in a research project funded by Embraer. </p>
+            </div>
+            <div class="col-md-4 my-3">
+              <div class="row mb-3">
+                <div class="text-center col-2">
+                  <i class="d-block mx-auto fa fa-3x fa-check-square"></i>
+                </div>
+                <div class="align-self-center col-10">
+                  <h5 class="text-secondary text-center">
+                    <b>Automatic generation of consistent graphs</b>
+                  </h5>
+                </div>
+              </div>
+              <p>We developed a graph solver to automatically generate consistent domain-specific graph models satisfying structural constraints.</p>
+              <p>Check our
+                <a href="http://doi.acm.org/10.1145/3180155.3180186">ICSE 2018 paper</a>, the
+                <a href="https://github.com/viatra/VIATRA-Generator">software tool</a> or related blog posts
+                <a href="https://modeling-languages.com/a-graph-solver-for-automatically-generating-consistent/">in English</a> or
+                <a href="http://mta.hu/tudomany_hirei/magyar-kutatok-eredmenye-forradalmasithatja-az-autoipari-tervezoeszkozok-teszteleset-108355">in Hungarian</a> for further information.</p>
+            </div>
+            <div class="col-md-4 my-3">
+              <div class="row mb-3">
+                <div class="text-center col-2">
+                  <i class="d-block mx-auto fa fa-3x fa-users"></i>
+                </div>
+                <div class="align-self-center col-10">
+                  <h5 class="text-secondary text-center">
+                    <b>Secure collaborative modeling</b>
+                  </h5>
+                </div>
+              </div>
+              <p>In the
+                <a href="http://www.mondo-project.org/" target="_blank">MONDO</a> European project, we developed a collaborative modeling framework with fine-grained access control on top of off-the-shelf version control systems and modeling tools.</p>
+              <p> Check our
+                <a href="https://link.springer.com/article/10.1007/s10270-017-0631-8">journal paper</a> and a short
+                <a href="https://www.youtube.com/watch?v=WJZOascRMno" target="_blank">video demonstration</a>. </p>
+            </div>
+            <div class="col-md-4 my-3">
+              <div class="row mb-3">
+                <div class="text-center col-2">
+                  <i class="d-block mx-auto fa fa-3x fa-bar-chart"></i>
+                </div>
+                <div class="align-self-center col-10">
+                  <h5 class="text-secondary text-center">
+                    <b>Public scalability benchmarks</b>
+                    <br> </h5>
+                </div>
+              </div>
+              <p>We developed the
+                <b>Train Benchmark</b> (
+                <a href="https://github.com/FTSRG/trainbenchmark" target="_blank">sources</a>,
+                <a href="https://link.springer.com/article/10.1007/s10270-016-0571-8" target="_blank">paper</a>) which is a cross-technology benchmark for comparing the scalability of graph queries in continuous model validation scenarios. </p>
+              <p> My current/former graduate students contributed to other scalability benchmarks:
+                <a href="https://github.com/viatra/viatra-cps-benchmark">VIATRA CPS Benchmark</a>,
+                <a href="https://github.com/IncQueryLabs/magicdraw-viatra-benchmark">MagicDraw VIATRA Query Benchmark</a>,
+                <a href="https://github.com/ldbc/ldbc_snb_implementations">LDBC Social Network Benchmark</a>. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section py-3">
+    <div class="container p-3">
+      <div class="row align-items-center mb-4">
+        <div class="col-lg-3">
+          <h2 class="mb-3 text-muted">Funding</h2>
+        </div>
+        <div class="pl-lg-4 col-lg-8  mb-2">
+          <p class="lead mb-0 text-muted">These research activities have been supported by numerous research agencies and industrial companies.&nbsp;</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"> </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col-4 col-md-2">
+          <img class="center-block img-fluid d-block" src="assets/team/eu-fp7-logo.jpeg"> </div>
+        <div class="col-4 col-md-2">
+          <img class="center-block img-fluid d-block" src="assets/team/NSERC-logo.png"> </div>
+        <div class="col-4 col-md-2">
+          <img class="center-block img-fluid d-block" src="assets/team/logo-ericsson.png"> </div>
+        <div class="col-4 col-md-2">
+          <img class="center-block img-fluid d-block" src="assets/team/Siemens_AG_logo.png"> </div>
+        <div class="col-4 col-md-2">
+          <img class="center-block img-fluid d-block" src="assets/team/Embraer_logo.png"> </div>
+        <div class="col-4 col-md-2">
+          <img class="center-block img-fluid d-block" src="assets/team/IncQueryLabs-logo.png"> </div>
+        <div class="col-4 col-md-2">
+          <img class="center-block img-fluid d-block" src="assets/team/McGill_logo.png"> </div>
+        <div class="col-4 col-md-2">
+          <img class="center-block img-fluid d-block" src="assets/team/bme-logo.svg"> </div>
+        <div class="col-4 col-md-2">
+          <img class="center-block d-block img-fluid" src="assets/team/lendulet_logo.jpg"> </div>
+        <div class="col-4 col-md-2">
+          <img class="center-block d-block img-fluid" src="assets/team/MTA-logo.png"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center py-5 bg-light" id="teaching">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="mb-4 text-muted">Teaching</h1>
+          <p class="lead">Learn more about the courses I currently teach and the graduate students I supervise or co-supervise.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Courses</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="" data-toggle="pill" data-target="#winter-19">Winter 2019</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link active" data-toggle="pill" data-target="#fall-18">Fall 2018
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link" data-toggle="pill" data-target="#winter-18">Winter 2018
+                <br> </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-8">
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="winter-18" role="tabpanel">
+              <p class="mt-3 mb-1">ECSE 321: Introduction to Software Engineering (
+                <a href="https://www.mcgill.ca/study/2017-2018/courses/ecse-321" target="_blank">McGill page</a>)</p>
+            </div>
+            <div class="tab-pane fade" id="fall-18" role="tabpanel">
+              <p class="">ECSE 429: Software Validation (
+                <a href="https://www.mcgill.ca/study/2018-2019/courses/ecse-429">McGill page</a>)</p>
+            </div>
+            <div class="tab-pane fade" id="winter-19" role="tabpanel">
+              <p class="">ECSE 321: Introduction to Software Engineering (
+                <a href="https://www.mcgill.ca/study/2018-2019/courses/ecse-321" target="_blank">McGill page</a>)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a href="" class="nav-link" data-toggle="tab" data-target="#winter-18">Winter 2018</a>
+            </li>
+            <li class="nav-item">
+              <a class="active nav-link" data-toggle="tab" data-target="#fall-18">Fall 2018</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link" data-toggle="tab" data-target="#winter-19">Winter 2019</a>
+            </li>
+          </ul>
+          <div class="tab-content mt-2">
+            <div class="tab-pane fade" id="winter-18" role="tabpanel">
+              <p class="">ECSE 321: Introduction to Software Engineering (
+                <a href="https://www.mcgill.ca/study/2017-2018/courses/ecse-321" target="_blank">McGill page</a>)</p>
+            </div>
+            <div class="tab-pane fade show active" id="fall-18" role="tabpanel">
+              <p class="">ECSE 429: Software Validation (
+                <a href="https://www.mcgill.ca/study/2018-2019/courses/ecse-429">McGill page</a>)</p>
+            </div>
+            <div class="tab-pane fade" id="winter-19" role="tabpanel">
+              <p class="">ECSE 321: Introduction to Software Engineering (
+                <a href="https://www.mcgill.ca/study/2018-2019/courses/ecse-321" target="_blank">McGill page</a>)</p>
+            </div>
+          </div>
+        </div>
+      </div>--></div>
+  <!--<div class="py-5 bg-light" id="what" >
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-10 mx-auto px-4">
+          <h2 class="text-muted mb-4">What do we do?</h2>
+          <div class="row text-left">
+            <div class="p-3 col-lg-4 col-md-3">
+              <div class="row mb-3">
+                <div class="text-center col-3">
+                  <i class="d-block mx-auto fa text-muted fa-4x fa-flask"></i>
+                </div>
+                <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-9">
+                  <h5 class="mb-0">
+                    <b>Research</b>
+                  </h5>
+                </div>
+              </div>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod.</p>
+            </div>
+            <div class="p-3 col-lg-4 col-md-3">
+              <div class="row mb-3">
+                <div class="text-center col-3">
+                  <i class="d-block mx-auto fa text-muted fa-4x fa-flask"></i>
+                </div>
+                <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-9">
+                  <h5 class="mb-0">
+                    <b>Research</b>
+                  </h5>
+                </div>
+              </div>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod.</p>
+            </div>
+            <div class="p-3 col-lg-4 col-md-3">
+              <div class="row mb-3">
+                <div class="text-center col-3">
+                  <i class="d-block mx-auto fa text-muted fa-4x fa-fire"></i>
+                </div>
+                <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-9">
+                  <h5 class="mb-0">
+                    <b>Teaching</b>
+                  </h5>
+                </div>
+              </div>
+              <p class="text-muted">ABC.</p>
+            </div>
+            <div class="p-3 col-lg-3">
+              <div class="row mb-3">
+                <div class="text-center col-3">
+                  <i class="d-block mx-auto fa text-muted fa-4x fa-fighter-jet"></i>
+                </div>
+                <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-9">
+                  <h5 class="mb-0">
+                    <b>&nbsp; Services</b>
+                  </h5>
+                </div>
+              </div>
+              <p class="text-muted">Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center py-5">
+    <div class="container">
+      <div class="row">
+        <div class="text-right col-md-6">
+          <div class="row my-5">
+            <div class="order-lg-2 text-center col-lg-2 col-3">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-stack-1x fa-battery-full text-white"></i>
+              </span>
+            </div>
+            <div class="text-lg-right text-left order-lg-1 col-lg-10 col-9">
+              <h4>Power booster</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="order-lg-2 text-center col-lg-2 col-3">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x text-secondary"></i>
+                <i class="fa fa-stack-1x fa-bolt text-white"></i>
+              </span>
+            </div>
+            <div class="text-lg-right text-left order-lg-1 col-lg-10 col-9">
+              <h4>Real energies</h4>
+              <p>Adipisici elit, sed eiusmod tempor incidunt.</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="order-lg-2 text-center col-lg-2 col-3">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-stack-1x fa-bomb text-white"></i>
+              </span>
+            </div>
+            <div class="text-lg-right text-left order-lg-1 col-lg-10 col-9">
+              <h4>Be ready for action</h4>
+              <p> ut labore et dolore magna aliqua.&nbsp; Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid.</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-left col-md-6" >
+          <div class="row my-5">
+            <div class="text-center col-lg-2 col-3">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x text-danger"></i>
+                <i class="fa fa-stack-1x text-white fa-dot-circle-o"></i>
+              </span>
+            </div>
+            <div class="col-lg-10 col-9">
+              <h4>Focus your target</h4>
+              <p>Ex ea commodi consequat. Quis aute iure reprehenderit.</p>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="text-center col-lg-2 col-3">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x text-info"></i>
+                <i class="fa fa-stack-1x text-white fa-gamepad"></i>
+              </span>
+            </div>
+            <div class="col-lg-10 col-9">
+              <h4>Take it seriously</h4>
+              <p>In voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="text-center col-lg-2 col-3">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x text-warning"></i>
+                <i class="fa fa-stack-1x text-white fa-rocket"></i>
+              </span>
+            </div>
+            <div class="col-lg-10 col-9">
+              <h4>Take off</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <div class="py-5 text-center" id="gradstudents">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="mb-4">Current Graduate Students</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+          <!--          <a data-toggle="modal" data-target=".yellow" href=""> </a>-->
+          <div class="card project">
+            <img class="card-img rounded-circle" src="assets/team/SemerathOszkar.jpg" alt="Card image">
+            <div class="card-body p-0">
+              <h5 class="mt-3 mb-1">
+                <b>
+                  <a href="https://inf.mit.bme.hu/en/members/semeratho">Oszkár Semeráth</a>
+                </b>
+              </h5>
+              <p class="text-muted m-0">
+                <small>PhD candidate</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+          <!--          <a data-toggle="modal" data-target=".cyan" href=""> </a>
+              <a data-toggle="modal" data-target=".cyan" href=""> </a>
+-->
+          <div class="card project">
+            <img class="card-img rounded-circle" src="assets/team/SzarnyasGabor.jpg" alt="Card image">
+            <div class="card-body p-0">
+              <h5 class="mt-3 mb-1">
+                <b>
+                  <a href="https://inf.mit.bme.hu/en/members/szarnyasg">Gábor Szárnyas</a>
+                </b>
+              </h5>
+              <p class="text-muted m-0">
+                <small>PhD candidate</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+          <!--          <a data-toggle="modal" data-target=".red" href="">-->
+          <div class="card project">
+            <div class="card-body p-0">
+              <img class="card-img rounded-circle" src="assets/team/DebreceniCsaba.jpg" alt="Card image">
+              <h5 class="mt-3 mb-1">
+                <b>
+                  <a href="https://inf.mit.bme.hu/en/members/debrecenics">Csaba Debreceni</a>
+                </b>
+              </h5>
+              <p class="text-muted m-0">
+                <small>PhD candidate</small>
+              </p>
+            </div>
+          </div>
+          <!--</a>-->
+        </div>
+        <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+          <!--<a data-toggle="modal" data-target=".purple" href="">-->
+          <div class="card project">
+            <img class="card-img rounded-circle" src="assets/team/BurMarton.jpg" alt="Card image">
+            <div class="card-body p-0">
+              <h5 class="mt-3 mb-1">
+                <b>
+                  <a href="https://imbur.github.io/">Márton Búr</a>
+                </b>
+              </h5>
+              <p class="text-muted m-0">
+                <small>PhD student</small>
+              </p>
+            </div>
+          </div>
+          <!--</a>-->
+        </div>
+        <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+          <!--<a data-toggle="modal" data-target=".white" href="">          </a>-->
+          <div class="card project">
+            <img class="card-img rounded-circle" src="assets/team/JasvirDhaliwal.jpg" alt="Card image">
+            <div class="card-body p-0">
+              <h5 class="mt-3 mb-1">
+                <b>
+                  <a href="https://www.linkedin.com/in/jasvir-kaur-dhaliwal-525a3588">Jasvir Dhaliwal</a>
+                </b>
+              </h5>
+              <p class="text-muted m-0">
+                <small>MEng student</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+          <div class="card project">
+            <img class="card-img rounded-circle" src="assets/team/Maruthi_Rangappa.jpg" alt="Card image">
+            <div class="card-body p-0">
+              <h5 class="mt-3 mb-1">
+                <b>
+                  <a href="https://www.linkedin.com/in/maruthi-rangappa-3597b742/">Maruthi Rangappa</a>
+                </b>
+              </h5>
+              <p class="text-muted m-0">
+                <small>MEng student</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-5 text-center bg-light" id="lendulet">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="mb-4">Further Members of MTA-BME Lendület Cyber-Physical Systems Group</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+            <!--          <a data-toggle="modal" data-target=".yellow" href=""> </a>-->
+            <div class="card project bg-light">
+              <img class="card-img rounded-circle" src="assets/team/GaborBergmann.jpg" alt="Card image">
+              <div class="card-body p-0">
+                <h5 class="mt-3 mb-1">
+                  <b>
+                    <a href="https://inf.mit.bme.hu/en/members/bergmann">Gábor Bergmann</a>
+                  </b>
+                </h5>
+                <p class="text-muted m-0">
+                  <small>Assistant Professor</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+            <!--          <a data-toggle="modal" data-target=".cyan" href=""> </a>
+              <a data-toggle="modal" data-target=".cyan" href=""> </a>
+-->
+            <div class="card project bg-light">
+              <img class="card-img rounded-circle" src="assets/team/VorosAndras.jpg" alt="Card image">
+              <div class="card-body p-0">
+                <h5 class="mt-3 mb-1">
+                  <b>
+                    <a href="https://inf.mit.bme.hu/en/members/vorosa">András Vörös</a>
+                  </b>
+                </h5>
+                <p class="text-muted m-0">
+                  <small>Lecturer</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+            <!--          <a data-toggle="modal" data-target=".red" href="">-->
+            <div class="card project">
+              <div class="card-body p-0 bg-light">
+                <img class="card-img rounded-circle" src="assets/team/MolnarVince.jpg" alt="Card image">
+                <h5 class="mt-3 mb-1">
+                  <b>
+                    <a href="https://inf.mit.bme.hu/en/members/molnarv">Vince Molnár</a>
+                  </b>
+                </h5>
+                <p class="text-muted m-0">
+                  <small>Lecturer, PhD candidate
+                    <br> main supervisor:
+                    <a href="https://inf.mit.bme.hu/en/members/majzik">Prof. István Majzik</a>
+                  </small>
+                </p>
+              </div>
+            </div>
+            <!--</a>-->
+          </div>
+          <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+            <!--<a data-toggle="modal" data-target=".purple" href="">-->
+            <div class="card project bg-light">
+              <img class="card-img rounded-circle" src="assets/team/HajduAkos.jpg" alt="Card image">
+              <div class="card-body p-0">
+                <h5 class="mt-3 mb-1">
+                  <b>
+                    <a href="https://inf.mit.bme.hu/en/members/hajdua">Ákos Hajdu</a>
+                  </b>
+                </h5>
+                <p class="text-muted m-0">
+                  <small>PhD student
+                    <br> main supervisor:
+                    <a href="https://inf.mit.bme.hu/en/members/micskeiz">Prof. Zoltán Micskei</a>
+                  </small>
+                </p>
+              </div>
+            </div>
+            <!--</a>-->
+          </div>
+          <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+            <!--<a data-toggle="modal" data-target=".white" href="">          </a>-->
+            <div class="card project bg-light">
+              <img class="card-img rounded-circle" src="assets/team/FarkasRebeka.jpg" alt="Card image">
+              <div class="card-body p-0">
+                <h5 class="mt-3 mb-1">
+                  <b>
+                    <a href="https://inf.mit.bme.hu/en/members/farkasr">Rebeka Farkas</a>
+                  </b>
+                </h5>
+                <p class="text-muted m-0">
+                  <small>PhD student
+                    <br> main supervisor:
+                    <a href="https://inf.mit.bme.hu/en/members/bergmann">Prof. Gábor Bergmann</a>
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 px-4 mb-4 col-6 px-lg-5">
+            <div class="card project bg-light">
+              <img class="card-img rounded-circle" src="assets/team/MarussyKristof.jpg" alt="Card image">
+              <div class="card-body p-0">
+                <h5 class="mt-3 mb-1">
+                  <b>
+                    <a href="https://inf.mit.bme.hu/en/members/marussyk">Kristóf Marussy</a>
+                  </b>
+                </h5>
+                <p class="text-muted m-0">
+                  <small>MEng student
+                    <br> main supervisor:
+                    <a href="https://inf.mit.bme.hu/en/members/majzik">Prof. István Majzik</a>
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-5 text-center" id="alumni">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="mb-4">Graduated PhD Students</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/team/IstvanRath.jpg">
+              <div class="card-body">
+                <h5>
+                  <a href="https://www.linkedin.com/in/istvanrath/">István Ráth</a>
+                </h5>
+                <p>(2011)</p>
+                <p class="card-text">Co-founder and Managing Director of IncQuery Labs Ltd.
+                  <br>Assistant professor at BME
+                  <!--<i class="fa d-inline fa-lg mr-3 fa-linkedin text-info" href="#"></i>-->
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/team/AkosHorvath.jpg">
+              <div class="card-body">
+                <h5>
+                  <a href="https://www.linkedin.com/in/akoshorvathincquerylabs/">Ákos Horváth</a>
+                </h5>
+                <p>(2013)</p>
+                <p class="card-text">Co-founder and Managing Director of IncQuery Labs Ltd.
+                  <br>Assistant professor at BME</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/team/GaborBergmann.jpg">
+              <div class="card-body">
+                <h5>
+                  <a href="https://inf.mit.bme.hu/en/members/bergmann">Gábor Bergmann</a>
+                </h5>
+                <p>(2013)</p>
+                <p class="card-text">Co-founder, Software R&amp;D engineering at IncQuery Labs Ltd.
+                  <br>Assistant professor at BME</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/team/AbelHegedus.jpg">
+              <div class="card-body">
+                <h5>
+                  <a href="https://www.linkedin.com/in/abelhegedus/">Ábel Hegedüs</a>
+                </h5>
+                <p>(2014)</p>
+                <p class="card-text">Co-owner, Software R&amp;D engineering at IncQuery Labs Ltd. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/team/ZoltanUjhelyi.jpg">
+              <div class="card-body">
+                <h5>
+                  <a href="https://www.linkedin.com/in/ujhelyiz/">Zoltán Ujhelyi</a>
+                </h5>
+                <p>(2017)</p>
+                <p class="card-text">Eclipse technologies expert at IncQuery Labs Ltd. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/team/BaloghAndras.jpg">
+              <div class="card-body">
+                <h5>
+                  <a href="https://www.linkedin.com/in/andr%C3%A1s-balogh-0758b562/"> András Balogh </a>
+                </h5>
+                <p>(2010, co-supervised)</p>
+                <p class="card-text">Chief Technology Officer at ThyssenKrupp Presta Hungary </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/team/GutaGabor.jpg">
+              <div class="card-body">
+                <h5>
+                  <a href="https://www.linkedin.com/in/gabor-guta-4ab59429/"> Gábor Guta </a>
+                </h5>
+                <p>(2012, co-supervised)</p>
+                <p class="card-text">Head of Research and Development at Axonmatics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    
+    <div class="py-5 bg-light" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="mb-4 text-muted">Academic Services</h1>
+            <p class="lead">A brief overview of my reviewing activity:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a href="" class="active nav-link" data-toggle="tab" data-target="#chair">Chair
+                  <br> </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link" data-toggle="tab" data-target="#pc-member">PC member</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" data-toggle="tab" data-target="#tabthree">PhD reviewer
+                  <br> </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link" data-toggle="tab" data-target="#tabfour">Projects
+                  <br> </a>
+              </li>
+            </ul>
+            <div class="tab-content mt-2">
+              <div class="tab-pane fade show active" id="chair" role="tabpanel">
+                <p class="">I served as a (co-)chair in the following scientific events:&nbsp;</p>
+                <ul class="">
+                  <li>ICSE 2019 (posters co-chair)</li>
+                  <li>SLE 2016 (program co-chair)</li>
+                  <li>ICMT 2014 (program co-chair)</li>
+                  <li>STAF 2013 (general chair)</li>
+                  <li>FASE 2013 (program co-chair)</li>
+                  <li>AGTIVE 2011 (general chair and program co-chair)</li>
+                  <li>ETAPS 2008 (local organization chair)</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="pc-member" role="tabpanel">
+                <p class="">I served on the program committee (Tab pane two. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center"> MODELS conference
+                    <span class="badge badge-primary badge-pill">8</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center"> Dapibus ac facilisis in
+                    <span class="badge badge-primary badge-pill">2</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center"> Morbi leo risus
+                    <span class="badge badge-primary badge-pill">1</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="tabthree" role="tabpanel">
+                <p class="">Tab pane three. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="text-white bg-dark" id="where">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 p-2">
+            <h3>
+              <b>Find me:</b>
+            </h3>
+            <!--            <a href="#" target="_blank">
+              <i class="fa d-inline fa-lg mr-3 fa-linkedin text-white"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-facebook d-inline fa-lg mr-3 text-white"></i>
+            </a>-->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 p-2">
+            <p>
+              <b>At McGill in Canada:</b>
+              <br> 3480 Rue University,&nbsp;
+              <br>McConnell Engineering Building&nbsp;
+              <br>Dept. of Electical and Computer Engineering,&nbsp;
+              <br>McGill University, Montreal,&nbsp;
+              <br>QC, H3A 0E9, Canada </p>
+            <p class="mb-3">
+              <a href="#">+1-514-398-3681</a>
+            </p>
+          </div>
+          <div class="col-md-6 p-2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.2005497016767!2d-73.57851208488404!3d45.5060413386724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a47f301ca09%3A0xdc9a59b6f7828e7a!2sMcConnell+Engineering+Building!5e0!3m2!1sen!2sca!4v1536350908960"
+              width="550" height="400" frameborder="0" style="border:0" allowfullscreen="false"></iframe>
+            <!--   <img class="img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;markers=McConnell+Engineering+Building&amp;center=3480+Rue+University%2C+Montreal%2C+QC&amp;zoom=16&amp;size=640x450&amp;sensor=false&amp;scale=2"
+              >-->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 p-2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.888145691919!2d19.057752915188644!3d47.47260910521835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddabb29bd997%3A0x4b453205e2d0f96b!2sBME+Building+I!5e0!3m2!1sen!2sca!4v1536351067811"
+              width="550" height="400" frameborder="0" style="border:0" allowfullscreen="false"></iframe>
+            <!--              <img class="img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;markers=%22BME+Building+I%22&amp;center=%22BME+Building+I%22+Budapest&amp;zoom=16&amp;size=640x450&amp;sensor=false&amp;scale=2">-->
+          </div>
+          <div class="col-md-6 p-2">
+            <p>
+              <b>At BME in Hungary:</b>
+              <br>Dept. of Measurement and Information Systems,
+              <br>Budapest University of Technology and Economics
+              <br>1117 Budapest Magyar tudósok krt. 2, </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 p-2">
+            <p>
+              <b>At IncQuery Labs in Hungary:</b>
+              <br>Rákóczi út 36&nbsp;
+              <br>1072 Budapest&nbsp; </p>
+          </div>
+          <div class="col-md-6 p-2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.634347023351!2d19.065650315189544!3d47.49703620353407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddcc15d5aa4f%3A0x8392f96de0ba1d51!2sIncquery+Labs+Research+and+Development+Ltd.!5e0!3m2!1sen!2sca!4v1536352925443"
+              width="550" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+            <!--   <img class="img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;markers=McConnell+Engineering+Building&amp;center=3480+Rue+University%2C+Montreal%2C+QC&amp;zoom=16&amp;size=640x450&amp;sensor=false&amp;scale=2"
+              >-->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center text-muted">© Copyright 2018 Dániel Varró - All rights reserved. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--
+    <div class="modal fade yellow">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h5 class="modal-title">
+              <b>Yellow</b> - CEO</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body bg-light">
+            <div class="row">
+              <div class="col-md-4 px-3">
+                <img class="img-fluid d-block mx-auto rounded-circle" src="assets/team/yellow.jpg"> </div>
+              <div class="col-md-8 p-2">
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&nbsp;
+                  <br>
+                  <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#" target="_blank">
+                  <i class="d-block  fa fa-lg fa-linkedin text-muted"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade cyan">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h5 class="modal-title">
+              <b>Cyan</b> - Managing Partner</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body bg-light">
+            <div class="row">
+              <div class="col-md-4 px-3">
+                <img class="img-fluid d-block mx-auto rounded-circle" src="assets/team/cyan.jpg"> </div>
+              <div class="col-md-8 p-2">
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&nbsp;
+                  <br>
+                  <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#" target="_blank">
+                  <i class="d-block  fa fa-lg fa-linkedin text-muted"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade red">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h5 class="modal-title">
+              <b>Red</b> - Vice President</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body bg-light">
+            <div class="row">
+              <div class="col-md-4 px-3">
+                <img class="img-fluid d-block mx-auto rounded-circle" src="assets/team/red.jpg"> </div>
+              <div class="col-md-8 p-2">
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+                <a href="#"
+                  target="_blank">
+                  <i class="d-block  fa fa-lg fa-linkedin text-muted"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade purple">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h5 class="modal-title">
+              <b>Purple</b> - CFO</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body bg-light">
+            <div class="row">
+              <div class="col-md-4 px-3">
+                <img class="img-fluid d-block mx-auto rounded-circle" src="assets/team/purple.jpg"> </div>
+              <div class="col-md-8 p-2">
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&nbsp;
+                  <br>
+                  <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#" target="_blank">
+                  <i class="d-block  fa fa-lg fa-linkedin text-muted"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade white">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h5 class="modal-title">
+              <b>White</b> - Consultant</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body bg-light">
+            <div class="row">
+              <div class="col-md-4 px-3">
+                <img class="img-fluid d-block mx-auto rounded-circle" src="assets/team/white.jpg"> </div>
+              <div class="col-md-8 p-2">
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&nbsp;
+                  <br>
+                  <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade blue">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h5 class="modal-title">
+              <b>Blue</b> - Field Researcher</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body bg-light">
+            <div class="row">
+              <div class="col-md-4 px-3">
+                <img class="img-fluid d-block mx-auto rounded-circle" src="assets/team/blue.jpg"> </div>
+              <div class="col-md-8 p-2">
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&nbsp;
+                  <br>
+                  <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"></script>
+    <!-- Script: Smooth scrolling between anchors in the same page -->
+    <script src="js/smooth-scroll.js"></script>
+    <!--    <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;
+      <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"> </pingendo>-->
+  </div>
+</body>
 
-    <title>Dániel Varró</title>
-  </head>
 </html>
